@@ -1,0 +1,98 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[x11names]{xcolor}
+%\pagecolor{Cornsilk3}
+%inline
+{\Huge \title{Artificial Intelligence Assignment-I \\Machine Learning}}
+\author{Aashutosh Patel \\ Roll no- 21111001}
+\usepackage[landscape]{geometry}
+\begin{document}
+	\begin{figure}
+		\centering
+		\includegraphics[scale=0.6]{nitlogo.png}
+	\end{figure}
+	\maketitle
+	\clearpage
+	
+\title{\textbf{Q1. Explain the different types of Machine learning and also explain the five best algorithms of each type.}}
+
+
+Machine learning can be broadly categorized into three main types based on the learning approach they use:\\
+1.Supervised Learning\\
+2.Unsupervised Learning\\
+3.Reinforcement Learning\\
+
+\textbf{1. Supervised Learning:}\\
+Supervised learning is the most common type of machine learning, where the algorithm is trained on labeled data, meaning the input features are paired with corresponding target labels. The goal is to learn a mapping between the input features and the output labels so that the model can make accurate predictions on new, unseen data.\\
+
+Five best algorithms for supervised learning are:\\
+
+a. Linear Regression: A simple algorithm used for regression tasks, where the relationship between input features and output labels is assumed to be linear.\\
+
+b. Decision Trees: A versatile algorithm used for both classification and regression tasks. It builds a tree-like structure to make decisions based on feature values.\\
+
+
+c. Random Forest: An ensemble method that constructs multiple decision trees and combines their outputs to improve accuracy and reduce overfitting.\\
+
+d. Support Vector Machines (SVM): A powerful algorithm used for both classification and regression tasks. It finds the optimal hyperplane that separates data points of different classes.\\
+
+
+e. Gradient Boosting Machines (GBM): Another ensemble method that builds multiple weak learners sequentially, with each one focusing on the mistakes of the previous learners.\\
+\\
+\\
+\textbf{2. Unsupervised Learning:}\\
+In unsupervised learning, the algorithm learns from an unlabeled dataset, trying to find patterns and relationships within the data without explicit target labels.\\
+
+Five best algorithms for unsupervised learning are:\\
+
+a. K-Means: A clustering algorithm that partitions data into K clusters based on similarity, aiming to minimize the sum of squared distances between data points and their cluster centers.
+\\
+
+b. Hierarchical Clustering: A method that builds a tree-like structure of clusters, enabling data to be grouped into nested clusters.
+\\
+
+c. Principal Component Analysis (PCA): A dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional space while preserving the most significant variance.
+\\
+
+d. Autoencoders: Neural network-based algorithms used for unsupervised feature learning and data compression.
+\\
+
+e. Gaussian Mixture Models (GMM): A probabilistic model that assumes data points are generated from a mixture of several Gaussian distributions.
+\\
+\\
+\\
+\textbf{3. Reinforcement Learning:}\\
+Reinforcement learning involves training an agent to interact with an environment and learn by receiving feedback in the form of rewards or penalties for each action it takes.\\
+
+Five best algorithms for reinforcement learning are:\\
+
+a. Q-Learning: A model-free algorithm that learns an action-value function to make decisions in an environment.
+\\
+
+b. Deep Q Networks (DQNs): An extension of Q-Learning that utilizes deep neural networks to approximate the action-value function.
+\\
+
+c. Policy Gradient: A family of algorithms that directly optimize the agent's policy to maximize the expected reward.
+\\
+
+d. Proximal Policy Optimization (PPO): A policy gradient method that helps stabilize the training process by applying constraints to policy updates.
+\\
+
+e. Deep Deterministic Policy Gradients (DDPG): An algorithm that combines DQNs and policy gradients to tackle continuous action spaces in reinforcement learning.\\
+
+
+
+
+
+\title{\textbf{Q2. Explain Bagging and boosting Ensemble Learning with an example.}}\\
+
+
+\textbf{Bagging:}
+Bagging is like getting advice from multiple friends for a decision. We ask several friends for their opinions, and then we make a decision based on the majority opinion. For example, when choosing a movie to watch with friends, each friend suggests a movie, and we pick the movie that most of your friends suggested.\\
+
+\textbf{Boosting:}
+Boosting is like learning from mistakes with the help of different mentors. Like I'm learning to ride a bike, and I keep falling. Each time I fall, a different friend or family member helps me with specific tips and tricks. After learning from all of them, I become a better bike rider and can ride smoothly without falling.
+
+
+\end{document}
